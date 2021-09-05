@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    width: 968;
+    height: 550px;
+}
+main div{
+    width: 968;
+    height: 48;
+}
+/* h2{
+    text-align: center;
+    background-color: rgb(29, 150, 45);
+    margin: 0;
+    padding-bottom: 0;
+    height: 200px;
+
+} */
+.inner-div>img{
+    height: 120px;
+    width: fit-content;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+
+}
+
+.outer-div , .outer-search-div{
+    position: relative;
+    background-color: white;
+    width: 968;
+    height: 150px;
+    
+    border-width: 10px;
+    border-color: aqua;
+}
+
+.inner-div{
+    position: absolute;
+    width: fit-content;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.outer-search-div{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+input{
+    position: absolute;
+    width: 600px;
+    height: 54px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 5px auto;
+    border: white;
+    border-color: white;
+    padding: 0;
+    color: -internal-light-dark(rgb(255, 255, 255), white);
+    border-style: none;
+}
+
+.inner-search-div{
+    width: 700px;
+    height: 64px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(150, 147, 147);
+    border: solid 1px;
+    border-radius: 30px;
+    box-sizing: 40px;
+    
+    
+}
+
+.inner-search-icon-div{
+    height: 54px;
+    width: 50px;
+    width: fit-content;
+    position: absolute;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.inner-search-icon-div img{
+    height: 44px;
+    width: 50px;
+    width: fit-content;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-bottom: 0;
+}
+
+/* .inner-mic-icon-div{
+    height: 108px;
+    width: fit-content;
+    position: absolute;
+    margin: 0;
+    background-color: rgb(138, 138, 137);
+    padding-bottom: 0;
+}
+
+.inner-mic-icon-div img{
+    height: 44px;
+    width: 50px;
+    right: 0;
+    width: fit-content;
+    position: relative;
+    margin-top: 10px;
+    background-color: yellow;
+    margin-left: 5px;
+    padding-bottom: 0;
+    right: 0;
+    z-index: 1;
+} */
+
+.outer-div-button{
+    background-color: white;
+    width: auto;
+    height: 60px;
+    margin-left: 570px;
+    margin-right: 570px;
+}
+
+.inner-div-search{
+    display: inline-block;
+    margin-right: 60px;
+}
+.inner-div-lucky{
+    display: inline-block;
+}
+
+.styled {
+    display: inline-block;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    border-radius: 5px;
+    background-color: rgb(248, 246, 246);
+}
+
+.styled:hover {
+    background-color: rgb(235, 233, 233);
+    border: cornflowerblue;
+    border-width: 3px;
+}
+
+.outer-div-language{
+    background-color: white;
+    align-content: center;
+    height: 78px;
+    text-align: center;
+    padding-top: 10px;
+    
+    margin: 15px 0 0 0 ;
+}
+a{
+    padding-right: 10px;
+}
+
+p{
+    display: inline-block;
+    
+}
+
+
+header{
+    text-align: center;
+    height: 40px;
+    bottom: 0;
+}
+
+header nav{
+    float: none;
+    margin: 15px 0 15px 0 ;
+    height: 30px;
+    text-align: center;
+}
+
+
+header nav menu li{
+    display: inline;
+    padding: 0 10px;
+    cursor: pointer;
+    float: right;
+   
+    
+}
+
+header nav menu li:hover{
+    text-decoration: underline;
+    
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover{
+    background-color: rgb(241, 239, 236);
+}
+
+.navbar{
+      margin-top: 10px;
+  }
+.dot img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#app-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+footer div{
+    height: 58px;
+    background-color: rgb(238, 238, 240);
+    padding: 20px;
+    color: #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    margin-bottom: 2px;
+    
+}
+
+.footer-left{
+    float: left;
+    margin: 0 0 15px 0 ;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.footer-right{
+    float: right;
+    margin: 0 0 15px 0 ;
+    height: 30px;
+    text-align: center;
+}
+
+.footer-left li , .footer-right li {
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.footer-left li:hover , .footer-right li:hover{
+    text-decoration: underline;
+}
+
